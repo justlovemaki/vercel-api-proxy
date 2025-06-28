@@ -2,13 +2,7 @@
 
 本项目克隆自： [souying/vercel-api-proxy](https://github.com/souying/vercel-api-proxy) 
 
-一个基于 Vercel 平台的轻量级 API 代理服务，旨在帮助开发者快速、免费地解决特定网络环境下的访问限制问题。
-
-<p align="center">
-  <a href="https://vercel.com/import/project?template=https://github.com/souying/vercel-api-proxy">
-    <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
-  </a>
-</p>
+一个基于 Vercel 平台的轻量级 API 代理服务，旨在帮助开发者快速、免费地解决 API 跨域（CORS）和特定网络环境下的访问限制问题。
 
 ---
 
