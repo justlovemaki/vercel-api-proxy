@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/(https://.*)",
-      "destination": "$1"
+      "source": "/https://:path*",
+      "destination": "https://:path*"
     },
     {
-      "source": "/(http://.*)",
-      "destination": "$1"
+      "source": "/http://:path*",
+      "destination": "http://:path*"
     }
   ]
 }
