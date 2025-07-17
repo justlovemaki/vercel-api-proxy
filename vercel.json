@@ -1,12 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/https://:path*",
-      "destination": "https://:path*"
-    },
-    {
-      "source": "/http://:path*",
-      "destination": "http://:path*"
+      "source": "/:protocol(http|https)://:path*",
+      "destination": ":protocol://:path"
     }
   ]
 }
